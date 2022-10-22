@@ -1,0 +1,6 @@
+num1 = float(input("Dime el numero de a --> "))
+print("")
+num2 = float(input("Dime el numero de b --> "))
+print("")
+resultado = ((3+5*8))<3 and ((-6/3*4)+2<2) or (num1>num2)
+print(f"El resultado es: {resultado}")

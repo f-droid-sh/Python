@@ -1,0 +1,7 @@
+num1 = float(input("Dime el primer numero para operar: "))
+print("")
+num2 = float(input("Dime el segundo numero para operar: "))
+print("")
+num3 = float(input("Dime el tercer numero para operar: "))
+resultado = (num1**3 * (num2**2 - 2*num1*num3))/(2*num2)
+print (f"El resultado es: {resultado}")
